@@ -48,7 +48,7 @@ REFRESH_TOKEN_EXPIRES_DAYS=30
 
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=asd@gmail.com
+SMTP_USER=<user@gmail>
 SMTP_PASS=pass
 ```
 
