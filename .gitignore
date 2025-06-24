@@ -51,6 +51,7 @@ bower_components/
 # Build output
 dist/
 build/
+uploads/
 
 # TypeScript
 *.tsbuildinfo
