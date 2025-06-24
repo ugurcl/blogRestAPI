@@ -9,12 +9,12 @@ import morgan from "morgan";
 import { jsonSyntaxErrorHandler } from "./middlewares/jsonSyntaxErrorHandler";
 import fs from "fs";
 import path from "path";
-import helmet  from "helmet";
+
 
 const app: Application = express();
 
 app.use(express.json());
-app.use(helmet());
+
 const logStream = fs.createWriteStream(
   path.join(__dirname, "./logs/access.log"),
   {
