@@ -154,7 +154,3 @@ SMTP_PASS=<pass>
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-Feel free to ask if you want me to add example requests/responses or Swagger documentation.
