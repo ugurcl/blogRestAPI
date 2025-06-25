@@ -129,7 +129,11 @@ SMTP_PASS=pass
 | `/user/:id/role`    | PATCH  | Update user role             | Auth + Admin         |
 
 ---
+## Swagger Documentation
+You can explore and test all endpoints directly via Swagger UI:
 
+➡ http://localhost:3000/api-docs
+---
 ## Environment Variables
 
 Your `.env` file should include the following variables:

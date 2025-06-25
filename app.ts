@@ -9,9 +9,11 @@ import morgan from "morgan";
 import { jsonSyntaxErrorHandler } from "./middlewares/jsonSyntaxErrorHandler";
 import fs from "fs";
 import path from "path";
-
+import swaggerUi from 'swagger-ui-express';
+import swaggerSpec from './swagger';
 
 const app: Application = express();
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use(express.json());
 
